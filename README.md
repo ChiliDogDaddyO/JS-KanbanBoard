@@ -6,6 +6,9 @@
 
 ## Overview
 
+ADO:https://chiligists.visualstudio.com/My/_sprints/taskboard/Overview/My/19Q4?workitem=4362
+GitHub: https://github.com/ChiliDogDaddyO/JS-KanbanBoard
+
 This project is design to be completed on [Pluralsight](https://pluralsight.com). To find out more see here: [https://www.pluralsight.com/product/projects](https://www.pluralsight.com/product/projects).
 
 ## Installation
