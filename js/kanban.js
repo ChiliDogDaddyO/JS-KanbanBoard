@@ -25,10 +25,10 @@ const create_item = () => {
   )
   item.addEventListener('dragend', event => event.dataTransfer.clearData())
 
-  input = document.createElement('input')
+  let input = document.createElement('input')
   item.appendChild(input)
 
-  save_btn = document.createElement('button')
+  let save_btn = document.createElement('button')
   save_btn.innerHTML = 'Save'
   save_btn.addEventListener('click', () => {
     error.innerHTML = ''
@@ -46,7 +46,7 @@ const create_item = () => {
 }
 
 document.querySelectorAll('.drop').forEach(element => {
-  element.addEventListener(event => {
+  element.addEventListener('drop', event => {
     event.preventDefault()
     const id = event.DataTransfer.getData('text')
     event.target.appendChild(document.getElementById(id))
